@@ -1,0 +1,12 @@
+//Print the ranges of char, short int, long int and double (eg. char from -128 to 127)
+include<bits/sdtc++.h>
+using namespace std;
+
+int main() {
+cout<<"Range of char is "<<CHAR_MIN<<" to "<<CHAR_MAX<<endl;
+cout<<"Range of short int is "<<SHRT_MIN<<" to "<<SHRT_MAX<<endl;
+cout<<"Range of long int is "<<LONG_MIN<<" to "<<LONG_MAX<<endl;
+cout<<"Range of double is "<<DBL_MIN<<" to "<<DBL_MAX;
+
+return 0;
+}
