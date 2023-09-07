@@ -1,3 +1,6 @@
+/*Take input from the user. Ask for their full name, age, college name and display it as follows
+Hello <full name>, I see you are <age> years old and are currently studying at <college name>*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
