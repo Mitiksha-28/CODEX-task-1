@@ -1,0 +1,43 @@
+// Create a simple calculator program which performs addition, subtraction, multiplication, division and absolute functions 
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+int a;
+float b,c;
+cout<<"Enter 1 for addition, 2 for substraction, 3 for multiplication, 4 for division and 5 for absolute value"<<endl;
+cin>>a;
+cout<<"Now enter number 1 "<<endl;
+cin>>b;
+cout<<"Now enter number 2 "<<endl;
+cin>>c;
+if(a==1){
+cout<<"Addition of numbers is "<<b+c<<endl;
+}
+else if (a==2){
+cout<<"Substraction of numbers is "<<b-c<<endl;
+}
+else if (a==3){
+cout<<"Multiplication of numbers is "<<b*c<<endl;
+}
+else if (a==4){
+cout<<"division of numbers is "<<b/c<<endl;
+}
+else if (a==5 and b>0 and c>0){
+cout<<"Absolute value of "<<b<<" is "<<b<<endl;
+cout<<"Absolute value of "<<c<<" is "<<c<<endl;
+}
+else if (a==5 and b>0 and c<0){
+cout<<"Absolute value of "<<b<<" is "<<b<<endl;
+cout<<"Absolute value of "<<c<<" is "<<c*(-1)<<endl;
+}
+else if (a==5 and b<0 and c>0){
+cout<<"Absolute value of "<<b<<" is "<<b*(-1)<<endl;
+cout<<"Absolute value of "<<c<<" is "<<c<<endl;
+}
+else if (a==5 and b<0 and c<0){
+cout<<"Absolute value of "<<b<<" is "<<b*(-1)<<endl;
+cout<<"Absolute value of "<<c<<" is "<<c*(-1)<<endl;
+}
+return 0;
+}
