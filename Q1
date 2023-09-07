@@ -3,15 +3,16 @@ using namespace std;
 
 int main() {
 int age;
-char name, college;
+string name, college;
 cout<<"Enter your full name :"<<endl;
-cin>>name;
+getline(cin,name);
 cout<<"Enter your age :"<<endl;
 cin>>age;
+cin.ignore();
 cout<<"Enter your college name :"<<endl;
-cin>>college;
+getline(cin,college);
 
-cout<<"Hello"<<name<<", I see you are "<<age<<"years old and are currently studying at "<<college<<endl;
+cout<<"Hello "<<name<<", I see you are "<<age<<" years old and are currently studying at "<<college<<endl;
 
 return 0;
 }
