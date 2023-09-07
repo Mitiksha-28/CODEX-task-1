@@ -1,4 +1,5 @@
-include<bits/stdc++.h>
+//Using logical operators, check the greatest out of three numbers
+#include<bits/stdc++.h>
 using namespace std;
 
 int main() {
